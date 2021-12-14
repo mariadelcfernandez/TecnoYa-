@@ -1,0 +1,238 @@
+/*@import url(login.css);/*importo la hoja de estilo login aqui */
+
+body{
+	/*background-image: url("../img/font.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height:auto;
+	
+	flex: 1
+	
+}
+#mybox{
+	box-shadow: 30px 10px 20px #aaa; 
+  	border-radius: 10px;  
+  	height:auto;
+  	background:rgb(0,0,0);
+	background:rgba(0,0,0,0.1);
+	padding: 10px;
+}
+#mybox1{
+	box-shadow: 30px 10px 20px rgba(27, 20, 20, 0.81); 
+  	border-radius: 10px;  
+  	height:auto;
+  	background:rgb(0,0,0);
+	background:rgba(0,0,0,0.1);
+	padding: 10px;
+}
+.txtSh{
+	text-shadow: 5px 5px 5px #aaa;
+}
+.txtShW{
+	text-shadow: 5px 5px 5px #fff;
+}
+.bg-MiColor{
+	background-color: rgba(16, 36, 216, 0.6);
+}
+.text-purple{
+	color: rgb(80, 0, 80);
+	
+}
+@media screen and (max-width: 760px){
+	#box-principal{
+		position: relative;
+	}
+	#box-principal h3{ 
+		font-size:0.8em; 
+	}
+	#box-principal p{
+		color:#444;
+		font-size:0.7em;
+	}
+}
+
+@media screen and (min-width: 761px){
+	#box-principal{
+		position:absolute;
+		top:20%;
+		left:10%;
+		width:80%;
+		font-size:1.1em;
+	}	
+}
+/*@media only screen and (max-width: 500px) and (min-width: 341pc){}*/
+
+#box-principal{
+	color:white;
+	height:auto;
+	background:rgb(0,0,0);
+	background:rgba(0,0,0,0.4);
+	box-shadow:30px 10px 20px #bbb;
+	border-radius:10px;
+	
+}
+#form-center{
+	margin-top:20%;
+	margin-left:10%;
+	padding:15px;
+	box-shadow: 30px 10px 20px #aaa;
+	border-radius: 10px;
+	font-size:1.6em;
+	
+}
+.footer-pie{
+	position: relative;
+    bottom: 0;
+    width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	right:0;
+    left:0;
+}
+#text{
+	text-align: justify;
+}
+.text{
+	text-align:center;
+	color:  #fff;
+}
+.py-4{
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+}
+.py-6{
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+.flex{
+	display: flex;
+}
+.flex-col{
+	flex-direction: column;
+}
+.bg-dh-blue{
+	background-color: blue;
+}
+.w-full{
+width:100% ;
+}
+.bg-dh-light-celeste {
+    background-color: #79c9f7;
+}
+.clarito{
+	background-color: #e6e7e8;
+}
+/*mi icono whatsapp*/
+.icon {
+	width: 16px;
+	height: 16px;
+  }
+.box{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  }
+  .header{
+	  width: 100%;/*fija el ancho */
+	  height: 50%;/*fija el alto */
+	  background-color: blue; /*fija el fondo*/
+	  color:  #fff; /*fija  color de la letra*/
+
+	  position: fixed; /*fija en la cabecera por encima del desplazamiento de lo demas*/
+	  top: 0;/*fija desde el extremo superior a la izquierda */
+	  left: 0;
+	  z-index: 100; /*fija  sea el header q tape a lo demas elementos*/
+	  cursor: pointer;
+  }
+  .contenedor{
+	  width: 98%;/*fija */
+	  margin: auto;
+  }
+ /* .container {
+	background: #ddc3f7;
+	margin-top: 20px;
+  }*/
+  .header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+.sliders{
+	width: 70%;/*fija */
+	margin: auto;
+	overflow: hidden;
+	list-style: none;
+	padding: 0%;
+
+}
+.sliders li {
+	width: 100%;/*fija */
+	list-style: none;
+}
+
+.body1{
+	background-image: url("assets/img/redes/catalogo.jpeg");
+}
+
+
+
+
+/*my carrusel-*/
+body{
+	background:#000;
+  }
+  
+  section.awSlider .carousel{
+	display:table;
+	z-index:2;
+	-moz-box-shadow: 0 0 4px #444;
+	  -webkit-box-shadow: 0 0 4px #444;
+	  box-shadow: 0 0 15px rgba(1,1,1,.5);
+  }
+  
+  section.awSlider{
+	margin:30px auto;
+	padding:30px;
+	position:relative;
+	display:table;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  section.awSlider:hover > img{
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	opacity:1;
+  }
+  
+  section.awSlider img{
+	 pointer-events: none;
+  }
+  
+  section.awSlider > img{
+	position:absolute;
+	top:30px;
+	z-index:1;
+	transition:all .3s;
+	filter: blur(1.8vw);
+	-webkit-filter: blur(2vw);
+	-moz-filter: blur(2vw); 
+	-o-filter: blur(2vw); 
+	-ms-filter: blur(2vw);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	opacity:.5;
+  }
