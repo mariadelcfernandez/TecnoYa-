@@ -90,7 +90,7 @@
                     <div class="card-body">
                         <img src="<?= base_url() ?>assets/img/smart.jpg" alt="" width="160" height="160">
                         <h4>$69910,50</h4>
-                            <p>Venta de Smart-tv-hd-39"-rca</p>
+                            <p>Venta de Smart-TV-hd-39"-rca</p>
                             <p>Alta definicon, HDMI X3, USB X3 ,4K </p>
                             <a type="button" class="btn btn-dark" href="<?php echo base_url('carro'); ?>">Ver Catalogo</a>
                     </div>
