@@ -25,8 +25,9 @@
                 <div class="card mt-3">
                   <div class="product-1 align-items-center p-2 text-center">
                     <img class="rounded" width="160" height="160" src="<?php echo base_url(''."$imagen"); ?>">
-                    <div class="text-uppercase">
-                      <h6><b><?php echo trim($row->descripcion); ?></b></h6>
+                    <div class="text-uppercase ">
+                      <h6 ><b><?php echo trim($row->descripcion); ?></b></h6>
+                      <!--style = "display: inline-block margin:0.5%"-->
                     </div>
                     <div class="mt-3 info"> 
                       <?php 
